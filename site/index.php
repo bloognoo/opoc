@@ -22,7 +22,9 @@ body {
 
 .curly {
   font-family:'Quentin';
-  font-size:2em;
+  font-size:2.25em;
+  color:#C005AF;
+  color: #C00268;
 }
 
 /* customizable snowflake styling */
@@ -75,13 +77,10 @@ body {
 </div>
 <body>
 <div>We are a brand new wedding services company based in Madley, Telford.</div>
-
-<div style="position:relative; height
-
-<div class="curly">Wedding Dressing</div>
-<div class="curly">Wedding Dresses</div>
-<div class="curly">Flowergirl Dresses</div>
-<div class="curly">Prom Dresses</div>
+<div class="curly" style="position:absolute; left:0.5em; top:14em;">Wedding Dressing</div>
+<div class="curly" style="position:absolute; left:1.5em; top:16em;">Wedding Dresses</div>
+<div class="curly" style="position:absolute; left:2.5em; top:18em;">Flowergirl Dresses</div>
+<div class="curly" style="position:absolute; left:3.5em; top:20em;">Prom Dresses</div>
 <div>Contact <a href="mailto:nicola@opulent-occasions.co.uk">Nicola</a> for more information</div>
 <form>
 </form>
