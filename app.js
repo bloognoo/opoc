@@ -9,8 +9,11 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+var hbs = require('hbs');
+
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'templates/views'));
+hbs.registerPartials(__dirname + '/templates/partials', function (err) {});
 app.set('view engine', 'hbs');
 
 app.use(logger('dev'));
